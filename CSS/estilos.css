@@ -1,52 +1,55 @@
-
-html{
-    background-color: rgb(255, 255, 255);
-}
-
-.title{
-    border-radius: 10%; color: rgb(0, 0, 0);
-    width: 40vw;
+.titulo{
     font-size: 3em;
-    margin: auto;
-    padding: 2em;
-    color: rgb(0, 0, 0);
-    transition: 20ms;
+    color: darkgreen;
+    margin: center;
     display: flex;
     flex-direction: column;
-    align-content: center;
-
-}
-
-
-
-.title:hover{
-    background-color: white;
-}
-
-.text{
-    border-radius: 10%; color: rgb(0, 0, 0);
     width: 40vw;
     margin: auto;
-    padding: 2em 4em 2em 4 em;
+    padding: 2em 0em 0em 0em;
+}
+.html{
+    background-color: black;
+}
+
+.h3{
+    border: 2px solid darkgreen;
+    border-radius: 10%;
     font-size: 1.5em;
-    color: rgb(0, 0, 0);
-    transition: 20ms;
+    color: darkgreen;
+    margin: center;
     display: flex;
     flex-direction: column;
-    align-content: center;
-}
-
-.text:hover{
-    background-color: white;
-}
-
-#image{
-    border: 2px, solid, black;
-    width: 60vw;
-    display: flex;
+    width: 40vw;
     margin: auto;
+    padding: 3em;
+
+}
+
+.p{
+    font-size: 1em;
+    color: darkgreen;
+    margin: center;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: auto;
+    padding: 3em;
+}
+
+.img{
+    background-color: darkgreen;
+    border: 2px solid darkgreen;
+    border-radius: 10%;
+    font-size: 1.5em;
+    color: darkgreen;
+    margin: center;
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    margin: auto;
+    padding: 3em;
     align-items: center;
-    padding: 5em;
-    
+    justify-content: space-evenly;
 
 }
